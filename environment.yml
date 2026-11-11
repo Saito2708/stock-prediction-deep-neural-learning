@@ -1,0 +1,16 @@
+name: stock-prediction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - absl-py
+      - exchange-calendars==4.13.2
+      - matplotlib
+      - numpy
+      - pandas
+      - scikit-learn
+      - tensorflow==2.18.1
+      - yfinance==1.0
